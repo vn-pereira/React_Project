@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 
-class header extends React.Component{
+class Header extends React.Component{
    render(){
+     return (
       <header>
         <ol>
           <li>Drinks</li>
@@ -12,6 +13,8 @@ class header extends React.Component{
         </ol>
             <img></img>
       </header>
+      
+    );
   }
 }
-export default header;
+export default Header;

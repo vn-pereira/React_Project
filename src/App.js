@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
 import './App.css';
-import "./componentes/header";
-import  "./componentes/footer";
-
-class CabecalhoRodape extends Component{}
-
+import Header from './componentes/header';
+import Footer from './componentes/footer';
 
 function App() {
   return (
+    <div>
+    <Header/>
     <div>
       <h3>Contatos</h3>
     <div>
@@ -26,6 +25,8 @@ function App() {
         </form>
       </section>
     </div>
+  </div>
+  <Footer/>
   </div>
   );
 }
