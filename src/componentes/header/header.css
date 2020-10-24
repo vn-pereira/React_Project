@@ -1,0 +1,12 @@
+.header_menu{ 
+display: flex;
+align-self: center;
+justify-content: space-between;
+height: 60px; 
+font-family: Open Sans Condensed Bold;
+font-size: 24px; 
+font-weight: bold;
+background-color: #FFFBEF;
+grid-area: header;
+}
+

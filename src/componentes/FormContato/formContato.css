@@ -1,0 +1,21 @@
+.form{
+    grid-template-areas: 
+    "form"
+    "label"
+    "input";
+    grid-template-columns: 1vh 1vh 1vh;
+    grid-template-rows: 1vh 1vh 1vh;
+    background-image: url('../../image/contact-pic.jpg');
+    background-position: center;
+    grid-column-start: 1;
+    grid-row-end: 2;
+}
+
+.label{
+    font-family:  Open Sans Bold;
+    grid-area: label;
+}
+
+.input{
+    grid-area: input;
+}

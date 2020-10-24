@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
+import '../FormContato/formContato.css' 
 
 class FormContato extends React.Component{
     render(){
       return(    
     
-   <div>
+   <div className="form">
      <section>
-        <form className="form">
+        <form >
           <label> {this.props.name} </label>
-          <input type="text" placeholder={this.props.placeholder}></input> 
+          <input type="text" placeholder={this.props.placeholder}></input> {/*testar array of + map para renderizar o input */}
           {/*<label> E-mail: </label>
           <input type="text" placeholder="darthvader@hotmail.com"></input> 
           <label> Message: </label>
